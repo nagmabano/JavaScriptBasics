@@ -20,3 +20,15 @@ function swap(){
   document.getElementById("answer1").innerText = a;
   document.getElementById("answer2").innerText = b;
 }
+
+function even_odd(){
+  var num,val;
+  num = Number(document.getElementById("even_odd").value);
+  if( num%2 == 0){
+    val = "Even";
+  }
+  else{
+    val = "Odd";
+  }
+  document.getElementById("answer3").innerText = val;
+}
